@@ -90,15 +90,14 @@ class Cryptor:
                                 with open(file_path, "wb") as open_file:
                                     open_file.write(encrypted_data)
                                     open_file.close()
-                                # This is to append identifier to the last line of file
+                                """"# This is to append identifier to the last line of file
                                 with open(file_path, 'a+') as f:
                                     f.seek(0)
                                     data = f.read(100)
                                     if len(data) > 0:
                                         f.write("\n")
                                     f.write("This file is encrypted")
-                                    f.close()
-
+                                    f.close()"""
                             label = str("".join([self.file_folder_entry.get(), '/', files_array[count]]))
                             self.label3.configure(text='Encrypting: %s' %label)
                             count += 1
