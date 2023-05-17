@@ -1,4 +1,4 @@
-# Created by Jericho Loke
+# Created by Jericho
 # This is an open-source program and can be modified accordingly to your needs.
 
 from threading import Thread
